@@ -1,0 +1,14 @@
+{
+    "idaasInstanceId": "idaas_2qj3ulx7fvujdm32bd4m7f5vay",
+    "clientId": "app_njnbcggfuaaal2xb3nukjyyiuq",
+    "issuer":"https://w6pitxcn.aliyunidaas.com/api/v2/iauths_system/oauth2",
+    "tokenEndpoint": "https://w6pitxcn.aliyunidaas.com/api/v2/iauths_system/oauth2/token",
+    "scope": "urn:cloud:idaas:pam|.all",
+    "openApiEndpoint":"https://eiam-pre.ch-hangzhou.aliyuncs.com",
+    "developerApiEndpoint":"https://eiam-developerapi-pre.cn-hangzhou.aliyuncs.com",
+    "authnConfiguration": {
+        "authenticationSubject": "CLIENT",
+        "authnMethod": "CLIENT_SECRET_POST",
+        "clientSecretEnvVarName": "IDAAS_CLIENT_SECRET"
+    }
+}
