@@ -17,7 +17,7 @@ def main():
 
     # 2. Create AWS credentials provider via factory
     #    role_arn: the Cloud Account Role ARN configured in IDaaS PAM
-    provider = IDaaSPamAklessCredentialFactory.get_aws_credentials_provider(role_arn="arn:aws:iam::239452640263:role/idaas-eiam-user-role")
+    provider = IDaaSPamAklessCredentialFactory.get_aws_credentials_provider(role_arn="your-role-arn")
 
     # 3. Create a boto3 session with IDaaS credentials
     session = provider.get_boto3_session(region_name="us-east-1")
